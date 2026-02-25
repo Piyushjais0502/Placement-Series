@@ -1,0 +1,10 @@
+Made in 1995.
+It's getting updated every 6 months (not major) but yes to make it most powerfull language.
+It's platform independent.
+    - WORA (Write Once Run Everywhere)
+    -maintainable, secure, versatile for building enterprises, wen, mobile (Android) apps.
+
+We can run java in one line like we can print in one line execution through cmnd pannel by writing Jshell & then print
+statement.
+
+Programmer write java code in .java file then compiler convert that into byte code (.class) then JVM (Java Virtual Machine) - (jvm+library) =<JRE (Java Runtime Enviroment) < JDK < OS < Hardware.
