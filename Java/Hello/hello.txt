@@ -7,4 +7,4 @@ It's platform independent.
 We can run java in one line like we can print in one line execution through cmnd pannel by writing Jshell & then print
 statement.
 
-Programmer write java code in .java file then compiler convert that into byte code (.class) then JVM (Java Virtual Machine) - (jvm+library) =<JRE (Java Runtime Enviroment) < JDK < OS < Hardware.
+Programmer write java code in .java file then compiler convert that into byte code (.class) then JVM (Java Virtual Machine) - (jvm+library) =< JRE (Java Runtime Enviroment) < JDK < OS < Hardware.
