@@ -1,0 +1,17 @@
+An SDET (Software Development Engineer in Test) is not :
+    - Just someone who executes test cases
+    - Just someone who automation scripts
+    - Just someone who clicks button faster using tools.
+
+An SDET  is an engineer who is responsible for quality.
+    = Understand how applications are built.
+    - Write code to test systems.
+    = Test APIs even before UI is ready.
+    - Help developers find issues early.
+    - Build automation framework teams rely on.
+    - Ensure releases are stable and reliable.
+
+    - SDET is an hybrid role. (testing and developing).
+    - Thinks like a tester
+    - Code like a developer.
+    - Works like an engineer.
