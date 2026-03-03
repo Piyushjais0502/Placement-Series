@@ -1,0 +1,16 @@
+What is Internet?
+    Internet is a vast interconnected network of computer network that communicate using a set of some rules called TCP/IP protocols.
+
+What is Website?
+    A web site is a collection of related web pages and multimedia content (like images and videos) that are grouped together under a single domain name and published on a web server.
+
+Website VS WebApp
+    A website is primarly informational - to display info and facts such as company portfolio or new website.
+    Whereas, a Web App is fully functionality driven, interact and process user input, such as gmail for sending mail and amazon for online shopping.
+
+Client vs server    
+    A client is a system that request data or service from system, whereas a server is the system who process and respond to client request.
+
+What is a Browser?
+    A browser is a client-side software application that accesss, render and retrieve web content from server using http/https protocols.
+
