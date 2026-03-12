@@ -1,17 +1,17 @@
 public class bestTimeToBuyAndSellStocks {
     public static void main(String[] args){
-        int[] arr = {7,1,5,3,6,4};
+        int[] prices = {7,1,5,3,6,4};
         int buyPrice = Integer.MAX_VALUE;
-        int max = 0;
+        int maxProfit = 0;
 
-        for(int i = 0; i<arr.length; i++){
-            if(buyPrice<arr[i]){
-                int price = arr[i] - buyPrice;
-                max = Math.max(max, price);
+        for(int i = 0; i<prices.length; i++){
+            if(buyPrice<prices[i]){
+                int profit = prices[i] - buyPrice;
+                maxProfit = Math.max(maxProfit, profit);
             } else {
-                buyPrice = arr[i];
+                buyPrice = prices[i];
             }
         }
-        System.out.print(max);
+        System.out.print(maxProfit);
     }
 }
