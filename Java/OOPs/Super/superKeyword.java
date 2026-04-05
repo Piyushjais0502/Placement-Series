@@ -7,15 +7,15 @@ public class superKeyword {
 }
 class Animal{
     String colour;
-    Animal(){
+    /*Animal(){
         System.out.println("Animal Constructor is called...");
-    }
+    }*/
 }
 class Horse extends Animal{
     
     Horse(){
-        super();
-        super.colour = "brown";
+        //super();
+        super.colour = "black";
         System.out.println("Horse contructor is called...");
     }
 }

@@ -1,1 +1,0 @@
-ystem.out.println(s2.name);

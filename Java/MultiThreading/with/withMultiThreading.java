@@ -1,13 +1,13 @@
 public class withMultiThreading {
     public static void main(String[] args){
-        long startTime = System.currentTimeMillis();
+       // long startTime = System.currentTimeMillis();
 
         Thread thread1 = new Thread(new numberCounter());
         Thread thread2 = new Thread(new sumCalculator());
 
         thread1.start();
         thread2.start();
-
+/* 
         try{
             thread1.join();
             thread2.join();
@@ -15,7 +15,7 @@ public class withMultiThreading {
             throw new RuntimeException(e);
         }
 
-        System.out.println(System.currentTimeMillis() - startTime + " ms");
+        System.out.println(System.currentTimeMillis() - startTime + " ms");*/
     }
 }
 
