@@ -1,6 +1,6 @@
 public class duplicate1 {
     public static void main(String[] args){
-        int[] arr = {1,2,3,4,2};
+        int[] arr = {1,2,3,4,2,};
         int slow = arr[0];
         int fast = arr[0];
 
