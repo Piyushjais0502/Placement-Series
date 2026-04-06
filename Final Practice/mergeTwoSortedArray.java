@@ -1,22 +1,22 @@
-public class mergeTwoSortedArrays {
+public class mergeTwoSortedArray {
     public static void main(String[] args){
-        int[] arr1 = {2,4,5,8};
-        int[] arr2 = {3,5,7,9};
+        int[] arr1 = {1,3,5,7,9};
+        int[] arr2 = {2,4,6,8,10};
 
-        int[] result = mergingArr(arr1, arr2);
-
+        int[] result = mergeTwoArray(arr1, arr2);
         for(int num:result){
-            System.out.print(num + " ");            //time - O(n+m)
-                                                    //space - O(n+m)
-        }   
+            System.out.print(num + " ");
+        }
+
 
     }
-    public static int[] mergingArr(int[] arr1, int[] arr2){
+    public static int[] mergeTwoArray(int[] arr1, int[] arr2){
         int n = arr1.length;
         int m = arr2.length;
-        int[] result = new int[n + m];
 
-        int i =0, j= 0, k = 0;
+        int[] result = new int[n+m];
+
+        int i = 0, j =0, k = 0;
 
         while(i<n && j<m){
             if(arr1[i]<arr2[j]){
