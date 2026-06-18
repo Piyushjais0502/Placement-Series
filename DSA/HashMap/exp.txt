@@ -1,0 +1,36 @@
+HashMap - Unordered.
+HashMap < DataType, DataType> abcd = new HashMap <>();
+            Key,    Value
+    
+Operations :-    O(n)
+put(key, value)         - to insert, update
+get(key)                - to get the Value
+containsKey(key)        - to check
+remove(key)             - to delete/remove
+
+CREATE:-
+HashMap<String, Integer> hm = new HashMap<>();
+
+INSERT:-
+hm.put("India", 100);
+hm.put("China", 150);
+hm.put("US", 50);
+System.out.print(hm);
+
+GET:-
+int population = hm.get("India");
+System.out.print(population);
+
+CONTAINS:-
+System.out.print(hm.containsKey("India")); -- true;
+System.out.print(hm.containsKey("Nepal")); -- false;
+
+REMOVE:-
+hm.remove("US");
+System.out.print(hm);
+
+SIZE:- 
+System.out.print(hm.size());
+
+IS EMPTY:-
+System.out.print(hm.isEmpty());
